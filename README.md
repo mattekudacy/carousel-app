@@ -27,11 +27,15 @@ PITX → Tramo → Taft → Ayala → Guadalupe → Orense → Kalayaan → Buen
 
 ## 📱 Screenshots
 
-<img src="assets/pic1.jpg" width="200" />
-<img src="assets/pic2.jpg" width="200" />
-<img src="assets/pic3.jpg" width="200" />
-<img src="assets/pic4.jpg" width="200" />
-<img src="assets/pic5.jpg" width="200" />
+<p align="center">
+    <img src="assets/pic1.jpg" width="200" />
+    <img src="assets/pic2.jpg" width="200" />
+    <img src="assets/pic3.jpg" width="200" />
+</p>
+<p align="center">
+    <img src="assets/pic4.jpg" width="200" />
+    <img src="assets/pic5.jpg" width="200" />
+</p>
 
 ## 🛠️ Tech Stack
 
