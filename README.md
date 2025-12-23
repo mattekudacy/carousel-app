@@ -23,7 +23,10 @@ This app was born out of that personal need. It uses your phone's GPS to track y
 The app covers all 22 stations of the EDSA Carousel route:
 
 **Northbound (PITX → Monumento):**
-PITX → Tramo → Taft → Ayala → Guadalupe → Orense → Kalayaan → Buendia → Crossing → Estrella → Mantrade → Shaw → Reliance → Pioneer → Boni → EDSA-GMA Kamuning → Nepa Q-Mart → Main Avenue → Santolan → Ortigas → Balintawak → Monumento
+PITX → MOA → Roxas Blvd. → Taft → Tramo → Ayala → Buendia → Guadalupe → Ortigas → Santolan →  Main Avenue → Nepa Q-Mart → GMA Kamuning → Quezon Ave. → PhilAm → North Ave. → SM North EDSA → Roosevelt/Muñoz → Kaingan → Balintawak → Bagong Barrio → Monumento
+
+**Southbound (Monumento → PITX):**
+Monumento → Bagong Barrio → Balintawak → Kaingan → Roosevelt/Muñoz → SM North EDSA → North Ave. → PhilAm → Quezon Ave. → GMA Kamuning → Nepa Q-Mart → Main Avenue → Santolan → Ortigas → Guadalupe → Buendia → Ayala → Tramo → Taft → Roxas Blvd. → MOA → PITX
 
 ## 📱 Screenshots
 
