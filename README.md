@@ -50,8 +50,17 @@ PITX → Tramo → Taft → Ayala → Guadalupe → Orense → Kalayaan → Buen
 ### Prerequisites
 
 - Flutter SDK 3.29 or higher
-- Android device with GPS (Android 8.0+)
+- Android device with GPS (Android 8.0+) or iOS device (iPhone/iPad)
 - Location permissions enabled
+
+### Supported Platforms
+
+| Platform | Status |
+|----------|--------|
+| Android  | ✅ Supported (Android 8.0+) |
+| iOS      | ✅ Supported |
+| Web      | ❌ Not supported |
+| Desktop  | ❌ Not supported |
 
 ### Installation
 
@@ -73,8 +82,14 @@ PITX → Tramo → Taft → Ayala → Guadalupe → Orense → Kalayaan → Buen
 
 ### Building for Release
 
+**Android:**
 ```bash
 flutter build apk --release
+```
+
+**iOS:**
+```bash
+flutter build ios --release
 ```
 
 ## 🤝 Contributing
