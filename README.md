@@ -1,0 +1,154 @@
+# 🚌 EDSA Carousel Tracker
+
+A Flutter app to track your journey on the EDSA Carousel Bus System in Metro Manila, Philippines. Get notified when you're approaching your destination — even while you sleep!
+
+## 📖 The Story
+
+As a daily commuter on the EDSA Carousel, I often found myself dozing off during long rides. The fear of missing my stop was real! I needed a simple solution: an app that would wake me up when I'm close to my destination.
+
+This app was born out of that personal need. It uses your phone's GPS to track your position along the EDSA Carousel route and sends you notifications when you're approaching your stop. No more missed stations, no more oversleeping past your destination.
+
+## ✨ Features
+
+- **🗺️ Real-time Location Tracking** — Continuously monitors your position along the EDSA Carousel route
+- **🔔 Smart Notifications** — Alerts you when approaching your destination (configurable: 1-5 stations before arrival)
+- **🧭 Automatic Direction Detection** — Intelligently determines if you're heading Northbound (PITX → Monumento) or Southbound (Monumento → PITX)
+- **⏱️ ETA Calculation** — Estimates your arrival time based on current speed and traffic conditions
+- **📊 Journey Progress** — Visual progress bar showing stations passed and remaining
+- **🌓 Dark Mode** — Easy on the eyes for early morning or late night commutes
+- **⚠️ Edge Case Handling** — Detects GPS issues, traffic slowdowns, and wrong direction travel
+
+## 🚉 Supported Stations
+
+The app covers all 22 stations of the EDSA Carousel route:
+
+**Northbound (PITX → Monumento):**
+PITX → Tramo → Taft → Ayala → Guadalupe → Orense → Kalayaan → Buendia → Crossing → Estrella → Mantrade → Shaw → Reliance → Pioneer → Boni → EDSA-GMA Kamuning → Nepa Q-Mart → Main Avenue → Santolan → Ortigas → Balintawak → Monumento
+
+## 📱 Screenshots
+
+![](assets\pic1.jpg)
+![](assets\pic2.jpg)
+![](assets\pic3.jpg)
+![](assets\pic4.jpg)
+![](assets\pic5.jpg)
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter 3.29+
+- **State Management:** Riverpod
+- **Location Services:** Geolocator
+- **Notifications:** Flutter Local Notifications
+- **Persistence:** Shared Preferences
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK 3.29 or higher
+- Android device with GPS (Android 8.0+)
+- Location permissions enabled
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/carouselapp.git
+   cd carouselapp
+   ```
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+### Building for Release
+
+```bash
+flutter build apk --release
+```
+
+## 🤝 Contributing
+
+This started as a personal project, but contributions are welcome! Here's how you can help:
+
+### Ways to Contribute
+
+1. **🐛 Report Bugs** — Found an issue? Open a GitHub issue with details about what went wrong
+2. **💡 Suggest Features** — Have an idea to make the app better? I'd love to hear it
+3. **📍 Update Station Data** — Know of station location inaccuracies? Help improve the GPS coordinates
+4. **🌐 Add Translations** — Help make the app accessible in Filipino and other languages
+5. **📝 Improve Documentation** — Help others understand and use the app better
+6. **🔧 Submit Pull Requests** — Code contributions are always appreciated
+
+### Development Guidelines
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Code Style
+
+- Follow the [Dart style guide](https://dart.dev/guides/language/effective-dart/style)
+- Run `flutter analyze` before submitting PRs
+- Add comments for complex logic
+
+## 📁 Project Structure
+
+```
+lib/
+├── main.dart                 # App entry point
+├── models/
+│   └── station.dart          # Station model and route direction enum
+├── screens/
+│   ├── direction_selection_screen.dart
+│   ├── destination_selection_screen.dart
+│   └── tracking_screen.dart
+├── services/
+│   ├── station_provider.dart         # Station data management
+│   ├── location_tracking_service.dart # GPS tracking
+│   ├── station_detection_service.dart # Proximity detection
+│   ├── direction_inference_service.dart # Auto direction detection
+│   ├── station_progression_service.dart # Journey progress
+│   ├── eta_service.dart              # ETA calculations
+│   ├── notification_service.dart     # Push notifications
+│   ├── alert_manager.dart            # Alert logic
+│   ├── edge_case_handler.dart        # Error handling
+│   └── theme_service.dart            # Theme management
+├── widgets/
+│   ├── live_status_display.dart
+│   ├── eta_display.dart
+│   ├── station_detection_display.dart
+│   └── ...
+assets/
+└── stations.json             # Station coordinates and data
+```
+
+## ⚠️ Disclaimer
+
+This app is an independent project and is **not affiliated** with the Department of Transportation (DOTr) or any official EDSA Carousel operations. Station locations are approximated and may not be 100% accurate.
+
+**Use responsibly** — While this app can help alert you, always stay aware of your surroundings and don't rely solely on the app for navigation.
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- The EDSA Carousel system for making Metro Manila commutes more bearable
+- The Flutter community for amazing packages and support
+- Fellow commuters who inspired this app by sharing the same struggle
+
+---
+
+**Made with 💜 by a sleepy commuter**
+
+*If this app helped you catch your stop, consider giving it a ⭐!*

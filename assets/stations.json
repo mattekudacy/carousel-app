@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-23",
+  "stations": [
+    {
+      "id": "pitx",
+      "name": "PITX",
+      "fullName": "Parañaque Integrated Terminal Exchange",
+      "latitude": 14.5094,
+      "longitude": 120.9839,
+      "northboundOrder": 1,
+      "southboundOrder": 22,
+      "isTerminal": true,
+      "landmarks": ["PITX Terminal", "Mall of Asia Complex"]
+    },
+    {
+      "id": "moa",
+      "name": "MOA",
+      "fullName": "Mall of Asia",
+      "latitude": 14.5351,
+      "longitude": 120.9830,
+      "northboundOrder": 2,
+      "southboundOrder": 21,
+      "isTerminal": false,
+      "landmarks": ["SM Mall of Asia", "MOA Arena", "SMX Convention Center"]
+    },
+    {
+      "id": "roxas",
+      "name": "Roxas Boulevard",
+      "fullName": "Roxas Boulevard Station",
+      "latitude": 14.537076015936133,
+      "longitude": 120.99219008456495,
+      "northboundOrder": 3,
+      "southboundOrder": 20,
+      "isTerminal": false,
+      "landmarks": ["Bay Walk", "Department of Foreign Affairs", "Double Dragon Tower"]
+    },
+    {
+      "id": "taft",
+      "name": "Taft Avenue",
+      "fullName": "Taft Avenue Station",
+      "latitude": 14.5378,
+      "longitude": 121.0014,
+      "northboundOrder": 4,
+      "southboundOrder": 19,
+      "isTerminal": false,
+      "landmarks": ["LRT-1 EDSA Station", "Metropoint Mall"]
+    },
+    {
+      "id": "tramo",
+      "name": "Tramo",
+      "fullName": "Tramo Station",
+      "latitude": 14.537943444914239,
+      "longitude": 121.00339340816869,
+      "northboundOrder": 5,
+      "southboundOrder": 18,
+      "isTerminal": false,
+      "landmarks": ["DLTB Terminal", "Five Star Bus Terminal"]
+    },
+    {
+      "id": "ayala",
+      "name": "Ayala",
+      "fullName": "Ayala Station",
+      "latitude": 14.5489,
+      "longitude": 121.0278,
+      "northboundOrder": 6,
+      "southboundOrder": 17,
+      "isTerminal": true,
+      "landmarks": ["MRT-3 Ayala Station", "Glorietta", "Greenbelt", "One Ayala"]
+    },
+    {
+      "id": "buendia",
+      "name": "Buendia",
+      "fullName": "Buendia Station",
+      "latitude": 14.554993357564632,
+      "longitude": 121.03494152469096,
+      "northboundOrder": 7,
+      "southboundOrder": 16,
+      "isTerminal": false,
+      "landmarks": ["MRT-3 Buendia Station", "Buendia Avenue", "Gil Puyat Avenue"]
+    },
+    {
+      "id": "guadalupe",
+      "name": "Guadalupe",
+      "fullName": "Guadalupe Station",
+      "latitude": 14.5672,
+      "longitude": 121.0456,
+      "northboundOrder": 8,
+      "southboundOrder": 15,
+      "isTerminal": false,
+      "landmarks": ["MRT-3 Guadalupe Station", "Guadalupe Bridge"]
+    },
+    {
+      "id": "ortigas",
+      "name": "Ortigas",
+      "fullName": "Ortigas Avenue Station",
+      "latitude": 14.5879,
+      "longitude": 121.0567,
+      "northboundOrder": 9,
+      "southboundOrder": 14,
+      "isTerminal": true,
+      "landmarks": ["MRT-3 Ortigas Station", "SM Megamall", "Robinsons Galleria"]
+    },
+    {
+      "id": "santolan",
+      "name": "Santolan",
+      "fullName": "Santolan Station",
+      "latitude": 14.6072,
+      "longitude": 121.0567,
+      "northboundOrder": 10,
+      "southboundOrder": 13,
+      "isTerminal": false,
+      "landmarks": ["MRT-3 Santolan Station", "Greenhills Shopping Center"]
+    },
+    {
+      "id": "cubao",
+      "name": "Cubao/Main",
+      "fullName": "Cubao/Main Station",
+      "latitude": 14.6192,
+      "longitude": 121.0509,
+      "northboundOrder": 11,
+      "southboundOrder": 12,
+      "isTerminal": true,
+      "landmarks": ["MRT-3 Cubao Station", "Araneta City", "Gateway Mall", "Farmers Plaza"]
+    },
+    {
+      "id": "nepaqmart",
+      "name": "Nepa Q-Mart",
+      "fullName": "Nepa Q-Mart Station",
+      "latitude": 14.629066988424581,
+      "longitude": 121.04671836608458,
+      "northboundOrder": 12,
+      "southboundOrder": 11,
+      "isTerminal": true,
+      "landmarks": ["DLTB Terminal", "Genesis Bus Terminal", "Mega Q-Mart"]
+    },
+    {
+      "id": "kamuning",
+      "name": "Kamuning",
+      "fullName": "Kamuning Station",
+      "latitude": 14.6318,
+      "longitude": 121.0434,
+      "northboundOrder": 13,
+      "southboundOrder": 10,
+      "isTerminal": false,
+      "landmarks": ["MRT-3 Kamuning Station", "Kamuning Road"]
+    },
+    {
+      "id": "quezon_ave",
+      "name": "Quezon Avenue",
+      "fullName": "Quezon Avenue Station",
+      "latitude": 14.6424,
+      "longitude": 121.0384,
+      "northboundOrder": 14,
+      "southboundOrder": 9,
+      "isTerminal": false,
+      "landmarks": ["MRT-3 Quezon Avenue Station", "Fisher Mall", "Centris"]
+    },
+    {
+      "id": "philam",
+      "name": "Edsa Philam",
+      "fullName": "Edsa Philam Station",
+      "latitude": 14.647707414886701,
+      "longitude": 121.03523432830247,
+      "northboundOrder": 15,
+      "southboundOrder": 8,
+      "isTerminal": false,
+      "landmarks": ["Solaire Resort & Casino", "Avida Towers Sola"]
+    },
+    {
+      "id": "north_ave",
+      "name": "North Avenue",
+      "fullName": "North Avenue Station",
+      "latitude": 14.6525,
+      "longitude": 121.0323,
+      "northboundOrder": 16,
+      "southboundOrder": 7,
+      "isTerminal": true,
+      "landmarks": ["MRT-3 North Avenue Station", "TriNoma", "PUV Terminals", "Landmark Supermarket"]
+    },
+    {
+      "id": "smnorth",
+      "name": "SM North EDSA",
+      "fullName": "SM North EDSA Station",
+      "latitude": 14.65582541861131,
+      "longitude": 121.0294362910991,
+      "northboundOrder": 17,
+      "southboundOrder": 6,
+      "isTerminal": true,
+      "landmarks": ["SM North EDSA", "Savemore Market", "St. Peter Main Office"]
+    },
+    {
+      "id": "munoz",
+      "name": "Muñoz/Roosevelt",
+      "fullName": "Muñoz/Roosevelt Station",
+      "latitude": 14.6572,
+      "longitude": 121.0211,
+      "northboundOrder": 18,
+      "southboundOrder": 5,
+      "isTerminal": true,
+      "landmarks": ["Muñoz Market", "Waltermart Muñoz", "S&R Congressional"]
+    },
+    {
+      "id": "kaingin",
+      "name": "Kaingin",
+      "fullName": "Kaingin Station",
+      "latitude": 14.657600431428431,
+      "longitude": 121.01152813885362,
+      "northboundOrder": 19,
+      "southboundOrder": 4,
+      "isTerminal": false,
+      "landmarks": ["Floor Center Balintawak", "Landers Superstore"]
+    },
+    {
+      "id": "balintawak",
+      "name": "Balintawak",
+      "fullName": "Balintawak Station",
+      "latitude": 14.657501052432012,
+      "longitude": 121.00485928008554,
+      "northboundOrder": 20,
+      "southboundOrder": 3,
+      "isTerminal": false,
+      "landmarks": ["PureGold Balintawak", "Balintawak Market", "EDSAN Bagsakan Fruit Market"]
+    },
+    {
+      "id": "bagongbarrio",
+      "name": "Bagong Barrio",
+      "fullName": "Bagong Barrio Station",
+      "latitude": 14.657617896653308,
+      "longitude": 120.99802267852755,
+      "northboundOrder": 21,
+      "southboundOrder": 2,
+      "isTerminal": false,
+      "landmarks": ["Honda Cars Kalookan, Inc.", "Balintawak Cloverleaf Park", "Ayala Malls Cloverleaf"]
+    },
+    {
+      "id": "monumento",
+      "name": "Monumento",
+      "fullName": "Monumento Station",
+      "latitude": 14.6544,
+      "longitude": 120.9838,
+      "northboundOrder": 22,
+      "southboundOrder": 1,
+      "isTerminal": true,
+      "landmarks": ["Monumento Circle", "Andres Bonifacio Monument", "Victory Liner Terminal"]
+    }
+  ],
+  "routes": {
+    "northbound": {
+      "name": "Northbound",
+      "description": "PITX to Monumento",
+      "stationOrder": ["pitx", "moa", "roxas", "taft", "tramo", "ayala", "buendia", "guadalupe", "ortigas", "santolan", "cubao", "nepaqmart", "kamuning", "quezon_ave", "philam", "north_ave", "smnorth", "munoz", "kaingin", "balintawak", "bagongbarrio", "monumento"]
+    },
+    "southbound": {
+      "name": "Southbound",
+      "description": "Monumento to PITX",
+      "stationOrder": ["monumento", "bagongbarrio", "balintawak", "kaingin", "munoz", "smnorth", "north_ave", "philam", "quezon_ave", "kamuning", "nepaqmart", "cubao", "santolan", "ortigas", "guadalupe", "buendia", "ayala", "tramo", "taft", "roxas", "moa", "pitx"]
+    }
+  }
+}
