@@ -15,8 +15,7 @@ This app was born out of that personal need. It uses your phone's GPS to track y
 - **🧭 Automatic Direction Detection** — Intelligently determines if you're heading Northbound (PITX → Monumento) or Southbound (Monumento → PITX)
 - **⏱️ ETA Calculation** — Estimates your arrival time based on current speed and traffic conditions
 - **📊 Journey Progress** — Visual progress bar showing stations passed and remaining
-- **🌓 Dark Mode** — Easy on the eyes for early morning or late night commutes
-- **⚠️ Edge Case Handling** — Detects GPS issues, traffic slowdowns, and wrong direction travel
+travel
 
 ## 🚉 Supported Stations
 
@@ -171,6 +170,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-**Made with 💜 by a sleepy commuter**
+**Made with 💜 by an everyday commuter**
 
 *If this app helped you catch your stop, consider giving it a ⭐!*
