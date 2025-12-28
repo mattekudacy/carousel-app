@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     
     <application
-        android:label="carousel_app"
+        android:label="Carousel App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
